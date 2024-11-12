@@ -7,10 +7,14 @@ body {
     margin-right: 100px;
 }
 
-h1 {
+h1:first-of-type {
     text-align: center;
     border-bottom: solid black;
     padding-bottom: 20px;
+}
+
+img {
+    max-width: 500px;
 }
 
 p:first-of-type::before {
