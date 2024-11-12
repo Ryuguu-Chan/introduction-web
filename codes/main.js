@@ -20,3 +20,7 @@ window.onload = function name() {
 // début exercice 6
 Serpent.viens();
 // fin exercice 6
+
+// début exercice 7
+chat.couleur("Rouge");
+// fin exercice 7
