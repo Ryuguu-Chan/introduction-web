@@ -18,5 +18,5 @@ window.onload = function name() {
 }
 
 // début exercice 6
-
+Serpent.viens();
 // fin exercice 6
