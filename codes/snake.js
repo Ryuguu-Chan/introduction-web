@@ -4,7 +4,6 @@ const Serpent = {
         let svgElement = document.createElement("svg");
         svgElement.innerHTML = svgCodeString;
         document.body.appendChild(svgElement);
-        
     }
 }
 
