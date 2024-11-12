@@ -21,3 +21,25 @@ img {
 p:first-of-type::before {
     content: '- ';
 }
+
+#bouton {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#bouton:hover {
+    cursor: pointer;
+    border-color: red;
+    border-width: 10px;
+    transform: translate(-10px, -10px);
+    border-style: solid;
+}
+
+#bouton:active {
+    color: gray;
+    border-color: darkred;
+}
