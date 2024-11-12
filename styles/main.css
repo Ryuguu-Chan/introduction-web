@@ -51,3 +51,10 @@ p:first-of-type::before {
     text-align: center;
     padding: 10px;
 }
+
+svg {
+    display: inline;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
