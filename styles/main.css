@@ -45,3 +45,9 @@ p:first-of-type::before {
     color: gray;
     border-color: darkred;
 }
+
+#textbox {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
