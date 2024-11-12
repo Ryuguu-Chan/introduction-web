@@ -15,6 +15,7 @@ h1:first-of-type {
 
 img {
     max-width: 500px;
+    display: block;
 }
 
 p:first-of-type::before {
