@@ -29,6 +29,8 @@ p:first-of-type::before {
     box-shadow: none;
     padding: 10px;
     font-size: 30px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 #bouton:hover {

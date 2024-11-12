@@ -2,6 +2,14 @@ window.onload = function name() {
     let bouton = document.getElementById('bouton');
 
     bouton.onclick = function() {
-        alert("Je vies 🎶");
+
+        let textbox = document.getElementById('textbox');
+
+        if (textbox == null) {
+            alert("Je vies 🎶");
+        }
+        else {
+            alert(textbox.value);
+        }
     }
 }
