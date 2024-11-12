@@ -11,6 +11,21 @@
     }
 }
 
+@keyframes catAnimation {
+    0% {
+        left: 50px;
+        top: -30%;
+    }
+    50% {
+        left: 50px;
+        top: -10%;
+    }
+    100% {
+        left: 50px;
+        top: -30%;
+    }
+}
+
 * {
     font-family: sans-serif;
 }
@@ -74,4 +89,16 @@ p:first-of-type::before {
     animation-name: snakeAnimation;
     animation-duration: 10s;
     visibility: hidden;
+}
+
+#cat {
+    display: inline;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(180deg);
+    animation-name: catAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    visibility: visible;
 }
