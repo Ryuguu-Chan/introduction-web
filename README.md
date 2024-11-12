@@ -1,1 +1,1 @@
-done for a special course given to school people
+done for a special course given to future dev students
