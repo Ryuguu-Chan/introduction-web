@@ -16,3 +16,7 @@ window.onload = function name() {
         }
     }
 }
+
+// début exercice 6
+
+// fin exercice 6
