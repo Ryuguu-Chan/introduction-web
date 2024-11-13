@@ -1,3 +1,31 @@
+@keyframes snakeAnimation {
+    from {
+        left: -30%;
+        top: 30%;
+        visibility: visible;
+    }
+    to {
+        left: 120%;
+        top: 30%;
+        visibility: visible;
+    }
+}
+
+@keyframes catAnimation {
+    0% {
+        left: 50px;
+        top: -30%;
+    }
+    50% {
+        left: 50px;
+        top: -10%;
+    }
+    100% {
+        left: 50px;
+        top: -30%;
+    }
+}
+
 * {
     font-family: sans-serif;
 }
@@ -5,6 +33,7 @@
 body {
     margin-left: 100px;
     margin-right: 100px;
+    overflow: hidden;
 }
 
 h1:first-of-type {
@@ -50,4 +79,26 @@ p:first-of-type::before {
     font-size: 20px;
     text-align: center;
     padding: 10px;
+}
+
+#snakeDrawing {
+    display: inline;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation-name: snakeAnimation;
+    animation-duration: 10s;
+    visibility: hidden;
+}
+
+#cat {
+    display: inline;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(180deg);
+    animation-name: catAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    visibility: visible;
 }
