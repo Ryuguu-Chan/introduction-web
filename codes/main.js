@@ -23,4 +23,5 @@ Serpent.viens();
 
 // début exercice 7
 chat.viens();
+chat.couleur("rose");
 // fin exercice 7

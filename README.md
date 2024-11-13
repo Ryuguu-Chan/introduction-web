@@ -35,3 +35,17 @@ Créez une zone de texte afin de pouvor y insérer du texte et appuyez sur le bo
 <input type="text" id="textbox">
 <!-- fin exercice 5 -->
 ```
+## Exercice 6
+Allez dans le fichier codes/main.js et faites aller le serpent comme ici.
+```
+// début exercice 6
+Serpent.viens();
+// fin exercice 6
+```
+## Exercice 7
+Allez faire de même pour le chat dans le fichier codes/main.js
+```
+// début exercice 7
+chat.viens();
+// fin exercice 7
+```
