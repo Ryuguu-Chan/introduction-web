@@ -47,5 +47,14 @@ Allez faire de même pour le chat dans le fichier codes/main.js
 ```
 // début exercice 7
 chat.viens();
+chat.couleur("rouge");
 // fin exercice 7
 ```
+Vous pouvez choisir la couleur parmi les suivants
+<ul>
+<li>rouge</li>
+<li>bleu</li>
+<li>rose</li>
+<li>orange</li>
+</ul>
+tout autre couleur sera définie en noir
