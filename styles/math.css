@@ -1,0 +1,13 @@
+table {
+    margin-top: 50px;
+}
+
+th {
+    color: white;
+    background-color: blue;
+}
+
+td {
+    color: black;
+    background-color: rgb(175, 175, 255);
+}
