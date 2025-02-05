@@ -27,5 +27,24 @@
     creerTableDePuissance(12, 12);
     // fin exercice 10
 ?>
+<!-- début exercice bonus 1 -->
+<form action="send" method="post">
+    <table>
+        <tr>
+            <th>ton nom</th>
+            <td><input type="text" name="nom" required></td>
+        </tr>
+        <tr>
+            <th>ton prénom</th>
+            <td><input type="text" name="prenom" required></td>
+        </tr>
+        <tr>
+            <th>ton avi</th>
+            <td><textfield name="message" required></textfield></td>
+        </tr>
+    </table>
+    <input type="submit">
+</form>
+<!-- fin exercice bonus 1 -->
 </body>
 </html>
