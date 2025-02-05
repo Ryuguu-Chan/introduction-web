@@ -1,4 +1,9 @@
 done for a special course given to future dev students
+## The container's network
+| name | IP address | Role |
+| ---- | -----------| -----|
+| web.introweb | 192.168.25.10 | apache/PHP server |
+| db.introweb | 192.168.25.20 | MySQL server |
 
 ## Exercice 1
 Aller dans le fichier index.html et mettez un titre comme ici
@@ -110,3 +115,4 @@ Vous allez maintenant écrire ce qu vous en pensez de ce cours en faisant d'abor
 </form>
 <!-- fin exercice bonus 1 -->
 ```
+Entrez maintenant un message et appuyez sur le boutton "envoyer". Votre message sera stocké dans la base de donnée interne de l'activité
