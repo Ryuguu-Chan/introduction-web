@@ -45,17 +45,17 @@ ajouter un lien en ajoutant le contenu suivant dans `index.html`
 ## Exercice 7
 Allez dans le fichier `codes/main.js` et faites aller le serpent comme ici.
 ```
-// début exercice 6
+// début exercice 7
 Serpent.viens();
-// fin exercice 6
+// fin exercice 7
 ```
 ## Exercice 8
 Allez faire de même pour le chat dans le fichier `codes/main.js`
 ```
-// début exercice 7
+// début exercice 8
 chat.viens();
 chat.couleur("rouge");
-// fin exercice 7
+// fin exercice 8
 ```
 Vous pouvez choisir la couleur parmi les suivants
 <ul>
@@ -65,3 +65,18 @@ Vous pouvez choisir la couleur parmi les suivants
 <li>orange</li>
 </ul>
 tout autre couleur sera définie en noir
+
+## Exercice 9
+Allez dans le fichier `deuxiemePage.php` et faites le logo de votre site en ajoutant le contenu suivant
+```
+// début exercice 9
+creerLogo("prénom", "nom");
+// fin exercice 9
+```
+<b>veuillez remplacer le "prénom" par votre prénom et "nom" par votre nom de famille</b><br>
+Si le text de votre nom et prénom dépasse l'image. Vous pouvez ajouter un nombre comme ici
+```
+// début exercice 9
+creerLogo("prénom", "nom", 1000);
+// fin exercice 9
+```
