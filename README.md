@@ -1,19 +1,14 @@
 done for a special course given to future dev students
-## The container's network
-| name | IP address | Role |
-| ---- | -----------| -----|
-| web.introweb | 192.168.25.10 | apache/PHP server |
-| db.introweb | 192.168.25.20 | MySQL server |
 
 ## Exercice 1
-Aller dans le fichier index.html et mettez un titre comme ici
+Aller dans le fichier `index.html` et mettez un titre comme ici
 ```
 <!-- début exercice 1 -->
 <h1>Mon site internet</h1>
 <!-- fin exercice 1 -->
 ```
 ## Exercice 2
-Aller dans le fichier index.html faites - vous une introduction comme ici
+Aller dans le fichier `index.html` et mettez un titre comme ici
 ```
 <!-- début exercice 2 -->
 <p>[votre introduction va ici]</p>
@@ -41,14 +36,14 @@ Créez une zone de texte afin de pouvor y insérer du texte et appuyez sur le bo
 <!-- fin exercice 5 -->
 ```
 ## Exercice 6
-ajouter un lien en ajoutant le contenu suivant dans `index.html`
+Allez dans le fichier `codes/main.js` et faites aller le serpent comme ici.
 ```
 <!-- début exercice 6 -->
 <a href="deuxiemePage.php">ma deuxième page</a>
 <!-- fin exercice 6 -->
 ```
 ## Exercice 7
-Allez dans le fichier `codes/main.js` et faites aller le serpent comme ici.
+Allez faire de même pour le chat dans le fichier `codes/main.js`
 ```
 // début exercice 7
 Serpent.viens();

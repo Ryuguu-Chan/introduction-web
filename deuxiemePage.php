@@ -19,35 +19,12 @@
 <?php
 
     // début exercice 9
-    creerLogo("prénom", "nom");
     // fin exercice 9
 
     // début exercice 10
-    creerTableDeMultiplication(12, 12);
-    creerTableDeAddition(12, 12);
-    creerTableDeDivision(12, 12);
-    creerTableDePuissance(12, 12);
     // fin exercice 10
 ?>
 <!-- début exercice bonus 1 -->
-<form action="actions/send.php" method="post">
-    <table>
-        <tr>
-            <th>ton nom</th>
-            <td><input type="text" name="nom" required></td>
-        </tr>
-        <tr>
-            <th>ton prénom</th>
-            <td><input type="text" name="prenom" required></td>
-        </tr>
-        <tr>
-            <th>ton avi</th>
-            <td><textarea name="message" id="messageTextArea" required></textarea></td>
-        </tr>
-    </table>
-    <input type="submit" id="sendButton">
-</form>
-<script src="codes/form.js"></script>
 <!-- fin exercice bonus 1 -->
 </body>
 </html>
