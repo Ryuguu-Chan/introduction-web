@@ -17,8 +17,8 @@ window.onload = function name() {
     }
 }
 
-// début exercice 6
-// fin exercice 6
-
 // début exercice 7
 // fin exercice 7
+
+// début exercice 8
+// fin exercice 8
