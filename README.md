@@ -75,8 +75,14 @@ creerLogo("prénom", "nom");
 ```
 <b>veuillez remplacer le "prénom" par votre prénom et "nom" par votre nom de famille</b><br>
 Si le text de votre nom et prénom dépasse l'image. Vous pouvez ajouter un nombre comme ici
+
+## Exercice 10
+Générez plusieur tableau d'opération mathématique de la manière suivante
 ```
-// début exercice 9
-creerLogo("prénom", "nom", 1000);
-// fin exercice 9
+// début exercice 10
+creerTableDeMultiplication(12, 12);
+creerTableDeAddition(12, 12);
+creerTableDeDivision(12, 12);
+creerTableDePuissance(12, 12);
+// fin exercice 10
 ```

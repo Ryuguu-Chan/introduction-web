@@ -1,5 +1,6 @@
 <?php
     include ("images/logo.php");
+    include ("includes/math.php");
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +18,13 @@
     // début exercice 9
     creerLogo("prénom", "nom");
     // fin exercice 9
+
+    // début exercice 10
+    creerTableDeMultiplication(12, 12);
+    creerTableDeAddition(12, 12);
+    creerTableDeDivision(12, 12);
+    creerTableDePuissance(12, 12);
+    // fin exercice 10
 ?>
 </body>
 </html>
