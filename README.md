@@ -96,7 +96,7 @@ creerTableDePuissance(12, 12);
 Vous allez maintenant écrire ce qu vous en pensez de ce cours en faisant d'abord apparaître le champ de text en ajoutant le contenu suivant
 ```
 <!-- début exercice bonus 1 -->
-<form action="send" method="post">
+<form action="actions/send.php" method="post">
     <table>
         <tr>
             <th>ton nom</th>

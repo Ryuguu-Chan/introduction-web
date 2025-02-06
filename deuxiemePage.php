@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/math.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/form.css" media="all">
     <title>Ma deuxième page</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     // fin exercice 10
 ?>
 <!-- début exercice bonus 1 -->
-<form action="send" method="post">
+<form action="actions/send.php" method="post">
     <table>
         <tr>
             <th>ton nom</th>
@@ -40,11 +41,12 @@
         </tr>
         <tr>
             <th>ton avi</th>
-            <td><textfield name="message" required></textfield></td>
+            <td><textarea name="message" id="messageTextArea" required></textarea></td>
         </tr>
     </table>
-    <input type="submit">
+    <input type="submit" id="sendButton">
 </form>
+<script src="codes/form.js"></script>
 <!-- fin exercice bonus 1 -->
 </body>
 </html>

@@ -1,4 +1,5 @@
 DROP DATABASE IF EXISTS introduction_web_db;
+CREATE DATABASE introduction_web_db;
 
 USE introduction_web_db;
 
@@ -10,3 +11,6 @@ CREATE TABLE message (
     
     PRIMARY KEY (id)
 );
+
+CREATE USER IF NOT EXISTS goku@localhost IDENTIFIED BY 'vegeta';
+GRANT INSERT ON introduction_web_db.* TO goku@localhost;
