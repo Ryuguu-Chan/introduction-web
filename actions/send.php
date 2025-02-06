@@ -17,7 +17,7 @@
             $stmt->bindParam(":senderName", $_POST['nom']);
             $stmt->bindParam(":senderMessage", $_POST['message']);
 
-            $stmt->execute();
+            echo "<h1>Vous avez officiellement terminé les exercices!. Veuillez le dire au professeur!</h1>";
 
         }
         catch (PDOException $e) {
