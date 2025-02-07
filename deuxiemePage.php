@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/math.css" media="all">
     <link rel="stylesheet" type="text/css" href="styles/form.css" media="all">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Ma deuxième page</title>
 </head>
 <body>
