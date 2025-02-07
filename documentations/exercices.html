@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction au web</title>
+</head>
+<body>
+    <header>
+        <h1>Exercices pour l'introduction au web</h1>
+    </header>
+    <h2>Exercice 1</h2>
+    <p>Allez dans le fichier <code>index.html</code> et mettez un titre comme ici</p>
+    <pre>
+&lt;!-- début exercice 1 --&gt;
+&lt;h1&gt;Mon site internet&lt;/h1&gt;
+&lt;!-- fin exercice 1 --&gt;
+    </pre>
+    <h2>Exercice 2</h2>
+    <p>Toujours dans le fichier <code>index.html</code>. faites - vous une introduction comme ici</p>
+    <pre>
+&lt;!-- début exercice 2 --&gt;
+&lt;p&gt;[votre introduction va ici]&lt;/p&gt;
+&lt;!-- fin exercice 2 --&gt;
+    </pre>
+    <h2>Exercice 3</h2>
+    <p>Insérez l'image de votre choix comme ici</p>
+    <pre>
+&lt;!-- début exercice 3 --&gt;
+&lt;img src=&quot;./placeholder.png&quot;&gt;
+&lt;!-- fin exercice 3 --&gt;
+    </pre>
+    <h2>Exercice 4</h2>
+    <p>Créez un bouton et cliquez dessus pour voir la magie se produire</p>
+    <pre>
+&lt;!-- début exercice 4 --&gt;
+&lt;button id=&quot;bouton&quot;&gt;Appuis sur moi&lt;/button&gt;
+&lt;!-- fin exercice 4 --&gt;
+    </pre>
+    <h2>Exercice 5</h2>
+    <p>Créez une zone de texte afin de pouvoir y insérer du text et appuyez sur le bouton précédemment crée dans l'exercice 4</p>
+    <pre>
+&lt;!-- début exercice 5 --&gt;
+&lt;input type=&quot;text&quot; id=&quot;textbox&quot;&gt;
+&lt;!-- fin exercice 5 --&gt;
+    </pre>
+    <h2>Exercice 6</h2>
+    <p>Ajoutez u lien comme ceci dans le fichier <code>index.html</code></p>
+    <pre>
+&lt;!-- début exercice 6 --&gt;
+&lt;a href=&quot;deuxiemePage.php&quot;&gt;ma deuxième page&lt;/a&gt;
+&lt;!-- fin exercice 6 --&gt;
+    </pre>
+    <h2>Exercice 7</h2>
+    <p>Allez dans le fichier <code>codes/main.js</code> et faites aller le serpent comme ici</p>
+    <pre>
+// début exercice 7
+Serpent.viens();
+// fin exercice 7
+    </pre>
+    <h2>Exercice 8</h2>
+    <p>Faites apparaître un chat rouge comme ici</p>
+    <pre>
+// début exercice 8
+chat.viens();
+chat.couleur("rouge");
+// fin exercice 8
+    </pre>
+    <p>Vous pouvez choisir la couleur que vous voulez parmi les suivantes</p>
+    <ul>
+        <li>rouget</li>
+        <li>bleu</li>
+        <li>rose</li>
+        <li>orange</li>
+    </ul>
+    <p>tout autre couleur sera définie en noir</p>
+    <h2>Exercice 9</h2>
+    <p>Allez dans le fichier <code>deuxiemePage.php</code> et faites le logo de votre site en ajoutant le contenu suivant</p>
+    <pre>
+// début exercice 9
+creerLogo("prénom", "nom");
+// fin exercice 9
+    </pre>
+    <b>veuillez remplacer le "prénom" par votre prénom et "nom" par votre nom de famille</b>
+    <h2>Exercice 10</h2>
+    <p>Générez plusieur tableau d'opération mathématique de la manière suivante</p>
+    <pre>
+// début exercice 10
+creerTableDeMultiplication(12, 12);
+creerTableDeAddition(12, 12);
+creerTableDeDivision(12, 12);
+creerTableDePuissance(12, 12);
+// fin exercice 10
+    </pre>
+    <h2>Exercice Bonus 1</h2>
+    <p>Vous allez maintenant écrire ce que vous en pensez de ce cours en faisant d'abord apparaître le champ de text en ajoutant le contenu suivant</p>
+    <pre>
+&lt;!-- début exercice bonus 1 --&gt;
+&lt;form action=&quot;actions/send.php&quot; method=&quot;post&quot;&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;ton nom&lt;/th&gt;
+            &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;nom&quot; required&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;ton prénom&lt;/th&gt;
+            &lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;prenom&quot; required&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th&gt;ton avi&lt;/th&gt;
+            &lt;td&gt;&lt;textfield name=&quot;message&quot; required&gt;&lt;/textfield&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;input type=&quot;submit&quot;&gt;
+&lt;/form&gt;
+&lt;!-- fin exercice bonus 1 --&gt;
+    </pre>
+    <p>Entrez maintenant un message et appuyez szr le boutton "envoyer". Votre message sera stocké dans la base de donnée internet de l'activité</p>
+</body>
+</html>

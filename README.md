@@ -13,7 +13,7 @@ Aller dans le fichier index.html et mettez un titre comme ici
 <!-- fin exercice 1 -->
 ```
 ## Exercice 2
-Aller dans le fichier index.html et mettez un titre comme ici
+Aller dans le fichier index.html faites - vous une introduction comme ici
 ```
 <!-- début exercice 2 -->
 <p>[votre introduction va ici]</p>
@@ -27,7 +27,7 @@ Insérez l'image de votre choix comme ici
 <!-- fin exercice 3 -->
 ```
 ## Exercice 4
-Créez un bbouton et cliquez dessus pour voir la magie qui se produit
+Créez un bouton et cliquez dessus pour voir la magie qui se produit
 ```
 <!-- début exercice 4 -->
 <button id="bouton">Appuis sur moi</button>
@@ -78,8 +78,6 @@ Allez dans le fichier `deuxiemePage.php` et faites le logo de votre site en ajou
 creerLogo("prénom", "nom");
 // fin exercice 9
 ```
-<b>veuillez remplacer le "prénom" par votre prénom et "nom" par votre nom de famille</b><br>
-Si le text de votre nom et prénom dépasse l'image. Vous pouvez ajouter un nombre comme ici
 
 ## Exercice 10
 Générez plusieur tableau d'opération mathématique de la manière suivante
