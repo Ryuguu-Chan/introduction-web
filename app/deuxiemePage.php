@@ -25,6 +25,23 @@
     // fin exercice 10
 ?>
 <!-- début exercice bonus 1 -->
+<form action="actions/send.php" method="post">
+    <table>
+        <tr>
+            <th>ton nom</th>
+            <td><input type="text" name="nom" required></td>
+        </tr>
+        <tr>
+            <th>ton prénom</th>
+            <td><input type="text" name="prenom" required></td>
+        </tr>
+        <tr>
+            <th>ton avi</th>
+            <td><input type="text" name="message" required></td>
+        </tr>
+    </table>
+    <input type="submit">
+</form>
 <!-- fin exercice bonus 1 -->
 </body>
 </html>

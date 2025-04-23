@@ -101,7 +101,7 @@ Vous allez maintenant écrire ce qu vous en pensez de ce cours en faisant d'abor
         </tr>
         <tr>
             <th>ton avi</th>
-            <td><textfield name="message" required></textfield></td>
+            <td><input type="text" name="message" required></td>
         </tr>
     </table>
     <input type="submit">

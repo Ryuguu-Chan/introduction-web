@@ -1,4 +1,5 @@
 *.docx
 *.pdf
 *.txt
+mysql_data/*
 placeholder.png

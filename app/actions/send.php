@@ -6,7 +6,7 @@
         isset($_POST['message'])
     ) {
         try {
-            $pdo = new PDO("mysql:host=127.0.0.1;dbname=introduction_web_db", "goku", "vegeta");
+            $pdo = new PDO("mysql:host=mysql;dbname=introduction_web_db", "goku", "vegeta");
             $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
